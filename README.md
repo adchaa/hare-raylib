@@ -1,10 +1,10 @@
 # hare-raylib
 
-[Hare](https://harelang.org) bindings for [raylib](https://www.raylib.com) 6.0 — a simple and easy-to-use library for videogames programming.
+[Hare](https://harelang.org) bindings for [raylib](https://www.raylib.com) 6.0.
 
 ## Status
 
-Comprehensive bindings for the core raylib API:
+bindings for the core raylib API:
 
 | Module | Coverage |
 |---|---|
@@ -23,22 +23,6 @@ Comprehensive bindings for the core raylib API:
 
 - [Hare](https://harelang.org) 0.26.0 or later
 - [raylib](https://www.raylib.com) 6.0 shared library (`libraylib.so`)
-
-### Installing raylib
-
-```sh
-# Debian/Ubuntu
-sudo apt install libraylib-dev
-
-# Arch Linux
-sudo pacman -S raylib
-
-# From source
-git clone https://github.com/raysan5/raylib.git
-cd raylib
-make
-sudo make install
-```
 
 ## Usage
 
@@ -86,23 +70,6 @@ Run the example:
 cd example
 hare build -l raylib -o basic_window basic_window.ha
 ./basic_window
-```
-
-## Project structure
-
-```
-├── raylib/           # Hare module (the bindings)
-│   ├── types.ha      # Structs, enums, constants
-│   ├── core.ha       # Window, input, drawing, shader, file I/O
-│   ├── shapes.ha     # 2D shapes and collision detection
-│   ├── textures.ha   # Images, textures, color functions
-│   ├── text.ha       # Fonts, text drawing, UTF-8
-│   ├── models.ha     # 3D shapes, models, meshes, materials
-│   └── audio.ha      # Audio device, sound, music, streaming
-├── example/          # Example programs
-│   └── basic_window.ha
-├── LICENSE           # MPL-2.0
-└── README.md
 ```
 
 ## C string convention
