@@ -2,23 +2,6 @@
 
 [Hare](https://harelang.org) bindings for [raylib](https://www.raylib.com) 6.0.
 
-## Status
-
-bindings for the core raylib API:
-
-| Module | Coverage |
-|---|---|
-| Window / Graphics / Input | Full (InitWindow, events, keyboard, mouse, gamepad, touch) |
-| Shapes (2D) | Full (lines, circles, rectangles, triangles, polygons, splines) |
-| Textures / Images | Full (load, generate, manipulate, draw) |
-| Text / Fonts | Full (load, draw, codepoints, UTF-8) |
-| Models (3D) | Full (shapes, models, meshes, materials, animations) |
-| Audio | Full (device, wave, sound, music, streaming) |
-| Shaders | Full (load, uniforms, locations) |
-| VR, Automation, File I/O, Compression | Full |
-| raymath | Not yet — header-only C library, needs pure Hare implementation or C wrapper |
-| rlgl (OpenGL abstraction) | Not yet |
-
 ## Requirements
 
 - [Hare](https://harelang.org) 0.26.0 or later
