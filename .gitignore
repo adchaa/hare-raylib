@@ -1,0 +1,19 @@
+# Hare build artifacts
+*.o
+*.s
+*.ha.tmp
+cmd/*/
+
+# raylib prebuilt binaries (users should install raylib themselves)
+raylib/lib/
+raylib/include/
+
+# Build output
+canva
+example/basic_window
+
+# Editor files
+*.swp
+*.swo
+*~
+.DS_Store
